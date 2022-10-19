@@ -1,13 +1,17 @@
-Questões dia 06/09:
+1. O que é container?
 
- - a) O que é container?
- 
-   R: Containers são aplicações virtuais que são construídos para se adaptar às necessidades impostas pelo desenvolvedor. Dessa forma, quando um desenvolvedor cria um container com as configurações desejadas por ele, este já vem com todos os binários, bibliotecas e file systems necessários para o início da produção de aplicativos. 
+Container é a tecnologia usada para o desenvolvimento.
 
- - b) Qual a diferença do Container para as imagens?
+2.Qual a diferença do Container para as imagens?
 
-   R: A imagem é um template que será utilizado por seu container o container é a estrutura que você realmente executa já as imagens são apenas arquivos de configuração, todo container roda pela base de uma imagem, que tem todas as configurações que ele precisa ter
+As imagens são os arquivos(templates), e sera executada por seu container o container a executa.
 
- - c) Qual comando temos que digitar no shell para listar todos os container?
+3.Qual comando temos que digitar no shell para listar todos os containers?
 
-   R: docker comand ps -a
+docker ps -a
+
+
+
+
+
+
