@@ -5,7 +5,6 @@
     <form action="{{ route('clients.update', $client) }}" method="POST">
          @method('PUT')
         @csrf
-       
         <div class="mb-3">
             <label for="nome" class="form-label">Nome</label>
             <input type="text" name="nome" id="nome" placeholder="Digite o nome" value="{{ $client->nome }}"
