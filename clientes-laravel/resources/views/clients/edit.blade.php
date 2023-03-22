@@ -2,9 +2,10 @@
 @section('title', 'Editar Cliente')
 
 @section('content')
-    <form action="{{ route('clients.edit', $client) }}" method="POST">
+    <form action="{{ route('clients.update', $client) }}" method="POST">
+         @method('PUT')
         @csrf
-        @method('PUT')
+       
         <div class="mb-3">
             <label for="nome" class="form-label">Nome</label>
             <input type="text" name="nome" id="nome" placeholder="Digite o nome" value="{{ $client->nome }}"
