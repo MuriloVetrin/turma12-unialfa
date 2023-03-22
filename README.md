@@ -1,17 +1,25 @@
-1. O que é container?
+# turma12-unialfa
 
-Container é a tecnologia usada para o desenvolvimento.
+Laravel comandos mais utilizados:
 
-2.Qual a diferença do Container para as imagens?
+- composer create-project --prefer-dist laravel/laravel <nome_do_projeto> -> Criar projeto;
 
-As imagens são os arquivos(templates), e sera executada por seu container o container a executa.
+- php artisan serve -> Inicia o servidor de desenvolvimento embutido do Laravel.
 
-3.Qual comando temos que digitar no shell para listar todos os containers?
+- php artisan make:model NomeDoModelo -> Cria um novo modelo.
 
-docker ps -a
+- php artisan make:controller NomeDoControlador -> Cria um novo controlador.
 
+- php artisan make:migration NomeDaMigracao -> Cria uma nova migração de banco de dados.
 
+- php artisan migrate -> Executa todas as migrações pendentes.
 
+- php artisan db:seed -> Executa todas as sementes de banco de dados.
 
+- php artisan tinker -> Inicia o console interativo do Laravel para testar seu código.
 
+- php artisan route:list -> Exibe uma lista de todas as rotas registradas em seu aplicativo.
 
+- php artisan make:auth -> Cria todas as visões e rotas necessárias para autenticação de usuário.
+
+- php artisan make:middleware NomeDoMiddleware -> Cria um novo middleware.
