@@ -12,6 +12,8 @@ Laravel comandos mais utilizados:
 
 - php artisan make:migration NomeDaMigracao -> Cria uma nova migração de banco de dados.
 
+- php artisan make:migration create links table;
+
 - php artisan migrate -> Executa todas as migrações pendentes.
 
 - php artisan db:seed -> Executa todas as sementes de banco de dados.
